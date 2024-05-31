@@ -1,0 +1,18 @@
+.slick-slide >div{
+    margin: 0 10px;
+    display: flex;
+    
+}
+@media only screen and (min-width: 1560px) {
+
+    .ProjectCard {
+      width: 200px
+    }
+  
+    .card-img-top {
+      height: 300px;
+      width: 100px;
+      border-radius: 20px;
+    }
+  
+}
