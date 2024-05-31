@@ -39,6 +39,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import currency from "./currency.jpg";
+import buzz from "./buzz.jpg";
+import hacka from "./hacka.jpg";
+import lexi from "./lexi.jpg";
 
 export {
   logo,
@@ -79,4 +83,8 @@ export {
   c,
   mysql,
   link_img,
+  currency,
+  buzz,
+  hacka,
+  lexi,
 };

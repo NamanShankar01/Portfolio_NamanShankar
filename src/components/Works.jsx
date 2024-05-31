@@ -10,12 +10,33 @@ import { fadeIn, textVariant } from "../utils/motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-var settings = {
+const settings = {
   dots: true,
-  infinite: true,
+  infinite: false,
   speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1
+  slidesToShow: 3,  // Number of cards to show at normal screen size
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1240,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: true
+      }
+    },
+   
+    {
+      breakpoint: 870,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: true
+      }
+    }
+  ]
 };
 const ProjectCard = ({
   index,

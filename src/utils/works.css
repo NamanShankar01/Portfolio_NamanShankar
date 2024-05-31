@@ -1,18 +1,27 @@
 .slick-slide >div{
-    margin: 0 10px;
-    display: flex;
-    
+  margin: 0 10px;
+  display: flex;
+  
 }
-@media only screen and (min-width: 1560px) {
+@media only screen and (max-width: 1250px) {
 
-    .ProjectCard {
-      width: 200px
-    }
-  
-    .card-img-top {
-      height: 300px;
-      width: 100px;
-      border-radius: 20px;
-    }
-  
+.slick-slide >div{
+ display: flex; 
+ align-items: flex-end;
+justify-content: flex-end;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 915px){
+.abc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 }

@@ -6,7 +6,7 @@ import Tech from "./Tech";
 import Experience from "./Experience";
 import Achievements from "./Achievements";
 import Works from "./Works";
-import Feedbacks from "./Feedbacks";
+import PORs from "./PORs";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 
@@ -19,7 +19,7 @@ export {
   Experience,
   Achievements,
   Works,
-  Feedbacks,
+  PORs,
   Contact,
   CanvasLoader,
   EarthCanvas, 
